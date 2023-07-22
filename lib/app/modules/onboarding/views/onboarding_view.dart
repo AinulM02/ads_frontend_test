@@ -18,19 +18,17 @@ class OnboardingView extends GetView<OnboardingController> {
         alignment: Alignment.center,
         clipBehavior: Clip.none,
         children: [
-          Expanded(
-            child: PageView.builder(
-              controller: controller.pageController,
-              itemCount: controller.images.length,
-              onPageChanged: (value) {
-                controller.selectedIndex.value = value;
-              },
-              itemBuilder: (context, index) {
-                return AppIcons.png(
-                  controller.images[index],
-                );
-              },
-            ),
+          PageView.builder(
+            controller: controller.pageController,
+            itemCount: controller.images.length,
+            onPageChanged: (value) {
+              controller.selectedIndex.value = value;
+            },
+            itemBuilder: (context, index) {
+              return AppIcons.png(
+                controller.images[index],
+              );
+            },
           ),
           Positioned(
             bottom: 0,
