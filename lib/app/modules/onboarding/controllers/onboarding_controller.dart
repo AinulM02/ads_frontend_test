@@ -22,19 +22,4 @@ class OnboardingController extends GetxController {
     "Smart, Gorgeous & Fashionable Collection Explor Now",
     "There Are Many Beautiful And Attractive Plants To Your Room",
   ];
-
-  @override
-  void onInit() {
-    super.onInit();
-  }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
 }

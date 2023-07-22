@@ -75,7 +75,7 @@ class OnboardingView extends GetView<OnboardingController> {
             ),
           ),
           Positioned.fill(
-            bottom: -600,
+            bottom: -550,
             child: Align(
               alignment: Alignment.center,
               child: ValueListenableBuilder(

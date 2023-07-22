@@ -6,6 +6,7 @@ import '../../../routes/app_pages.dart';
 import '../../../themes/app_color.dart';
 
 class SplashController extends GetxController
+    // ignore: deprecated_member_use
     with SingleGetTickerProviderMixin {
   late AnimationController animationController;
   static List<Color> colorizeColors = [
