@@ -21,10 +21,7 @@ class SplashController extends GetxController
       duration: const Duration(milliseconds: 600),
     );
 
-    // Start the animation when the view is first built
     animationController.forward();
-
-    // Add a listener to check for animation completion and navigate to the next page
   }
 
   @override
